@@ -3,8 +3,6 @@
 
 Chat Backend Rest API project with basic security implementation and persistence via a relational Database. This supports multiple message format for communication such as Text, Image and Video.
 
-
-<br>
 <br>
 
 ### How to run it
