@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/chatdb?createDatabaseIfNotExist=true</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">CHANGE_THIS</property>
+        <property name="hbm2ddl.auto">create</property>
+        <property name="show_sql">true</property>
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <mapping class="com.backend.challenge.repository.model.User"/>
+        <mapping class="com.backend.challenge.repository.model.Token"/>
+        <mapping class="com.backend.challenge.repository.model.Message"/>
+        <mapping class="com.backend.challenge.repository.model.MessageImage"/>
+        <mapping class="com.backend.challenge.repository.model.MessageVideo"/>
+        <mapping class="com.backend.challenge.repository.model.MessageText"/>
+    </session-factory>
+</hibernate-configuration>
