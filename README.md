@@ -3,8 +3,6 @@
 
 Chat Backend Rest API project with basic security implementation and persistence via a relational Database. This supports multiple message format for communication such as Text, Image and Video.
 
-<br>
-
 ### How to run it
 
 #### 1. The first step involves setting up a MySQL database called chatdb and updating the username/password you have setup in the hibernate config file which could be found in src -> main -> resources -> config file
