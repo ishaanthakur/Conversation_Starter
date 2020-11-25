@@ -1,7 +1,7 @@
-# Chat Backend 
+# Conversation Backend
 ### Overview
 
-Chat Backend Rest API project with basic security implementation and persistence via a relational Database. This supports multiple message format for communication such as Text, Image and Video.
+Chat/conversation Backend Rest API project with basic security implementation and persistence via a relational Database. This supports multiple message format for communication such as Text, Image and Video.
 
 ### How to run it
 
