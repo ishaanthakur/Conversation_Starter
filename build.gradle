@@ -2,13 +2,13 @@ plugins {
     id 'java'
 }
 
-group 'com.asapp.backend.challenge'
+group 'com.backend.challenge'
 version '1.0'
 
 apply plugin: 'application'
 apply plugin: 'jacoco'
 
-mainClassName = 'com.asapp.backend.challenge.Application'
+mainClassName = 'com.backend.challenge.Application'
 
 sourceCompatibility = 1.8
 
