@@ -1,4 +1,4 @@
-# Conversation Backend
+# Conversation Starter
 ### Overview
 
 Chat/conversation Backend Rest API project with basic security implementation and persistence via a relational Database (MySQL). This supports multiple message format for communication such as Text, Image and Video.
